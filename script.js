@@ -145,3 +145,13 @@ function addTask() {
     taskInput.value = "";
     taskInput.style.height = "60px";
 }
+const firebaseConfig = {
+    apiKey: "AIzaSyBRHhf3biYnUZGlzom8q6swx2KGcZDrCW4",
+    authDomain: "basic-to-do-list-2426f.firebaseapp.com",
+    projectId: "basic-to-do-list-2426f",
+    storageBucket: "basic-to-do-list-2426f.firebasestorage.app",
+    messagingSenderId: "1094126323201",
+    appId: "1:1094126323201:web:9cd7fe2a7911291b74e200",
+    measurementId: "G-FWZXBX6G20"
+};
+
