@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
+    <title>To-Do List with Local Storage</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -17,29 +17,14 @@
 
         <div class="input-section">
             <input type="text" id="taskTitle" placeholder="Enter title..." />
-            <textarea id="taskInput" placeholder="Enter your note (multi-line supported)..."></textarea>
+            <textarea id="taskInput" placeholder="Enter your note... (multi-line supported)"></textarea>
             <button id="addBtn">Add</button>
         </div>
 
         <ul id="taskList"></ul>
     </div>
 
-    <script src="script.js">
-        import {
-            initializeApp
-        } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-        import {
-            getFirestore,
-            collection,
-            addDoc,
-            getDocs,
-            deleteDoc,
-            doc,
-            updateDoc,
-            onSnapshot
-        } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
-    </script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
